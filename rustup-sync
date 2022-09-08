@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+for x in cargo  cargo-clippy  cargo-fmt  cargo-miri  clippy-driver  rls  rust-gdb  rust-gdbgui  rust-lldb  rustc  rustdoc  rustfmt  rustup; do
+  if ! [[ -f $x ]]; then
+    cp -v rustup $x
+  fi
+done
