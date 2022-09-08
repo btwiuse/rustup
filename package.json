@@ -1,10 +1,12 @@
 {
   "name": "rustup",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "bin": {
     "rustup-init": "rustup-init",
     "rustfmt": "rustfmt",
     "rustup": "rustup",
+    "rustup-a": "rustup",
+    "rustup-b": "rustup",
     "cargo": "cargo",
     "cargo-clippy": "cargo-clippy",
     "cargo-fmt": "cargo-fmt",
