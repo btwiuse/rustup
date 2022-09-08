@@ -1,6 +1,6 @@
 {
   "name": "rustup",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "bin": {
     "rustup-init": "rustup-init",
     "rustfmt": "rustup",
