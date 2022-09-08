@@ -1,1 +1,2 @@
-rustup
+#!/usr/bin/env bash
+basename "$0"
