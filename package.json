@@ -1,0 +1,27 @@
+{
+  "name": "rustup",
+  "version": "1.0.3",
+  "bin": {
+    "rustup": "index.js"
+  },
+  "description": "Unofficial wrapper of rustup installer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btwiuse/rustup.git"
+  },
+  "keywords": [
+    "cargo",
+    "rust",
+    "rustup"
+  ],
+  "author": "btwiuse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btwiuse/rustup/issues"
+  },
+  "homepage": "https://github.com/btwiuse/rustup"
+}
