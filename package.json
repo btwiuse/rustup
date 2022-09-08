@@ -1,8 +1,8 @@
 {
   "name": "rustup",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "bin": {
-    "rustup": "index.js"
+    "rustup": "rustup"
   },
   "description": "Unofficial wrapper of rustup installer",
   "main": "index.js",
