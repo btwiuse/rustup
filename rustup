@@ -2,6 +2,8 @@
 
 PKG_DIR="$(dirname "$(realpath "$0")")"
 
+export RUSTUP_INIT_SKIP_PATH_CHECK=yes
+
 export CARGO_HOME="${PKG_DIR}/CARGO_HOME"
 
 export RUSTUP_HOME="${PKG_DIR}/RUSTUP_HOME"
