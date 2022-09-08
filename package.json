@@ -1,10 +1,21 @@
 {
   "name": "rustup",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "bin": {
     "rustup-init": "rustup-init",
     "rustfmt": "rustfmt",
-    "rustup": "rustup"
+    "rustup": "rustup",
+    "cargo": "cargo",
+    "cargo-clippy": "cargo-clippy",
+    "cargo-fmt": "cargo-fmt",
+    "cargo-miri": "cargo-miri",
+    "clippy-driver": "clippy-driver",
+    "rls": "rls",
+    "rust-gdb": "rust-gdb",
+    "rust-gdbgui": "rust-gdbgui",
+    "rust-lldb": "rust-lldb",
+    "rustc": "rustc",
+    "rustdoc": "rustdoc"
   },
   "description": "Unofficial wrapper of rustup installer",
   "main": "index.js",
